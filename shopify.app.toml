@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "0e3ec2479afd93b56bbd00ab898c0661"
-application_url = "https://employment-this-qualifications-indicates.trycloudflare.com"
+application_url = "https://as-recently-shirts-greece.trycloudflare.com"
 embedded = true
 name = "wishlist"
 handle = "wishlist-665"
@@ -23,9 +23,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://employment-this-qualifications-indicates.trycloudflare.com/auth/callback",
-  "https://employment-this-qualifications-indicates.trycloudflare.com/auth/shopify/callback",
-  "https://employment-this-qualifications-indicates.trycloudflare.com/api/auth/callback"
+  "https://as-recently-shirts-greece.trycloudflare.com/auth/callback",
+  "https://as-recently-shirts-greece.trycloudflare.com/auth/shopify/callback",
+  "https://as-recently-shirts-greece.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
@@ -34,3 +34,4 @@ embedded = false
 [build]
 dev_store_url = "boostmyappetitestore.myshopify.com"
 automatically_update_urls_on_dev = true
+include_config_on_deploy = true
